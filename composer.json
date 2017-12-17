@@ -1,0 +1,18 @@
+{
+    "name": "root/framework",
+    "description": "lesson 2",
+    "autoload": {
+        "psr-4": { "": "src/" }
+    },
+    "authors": [
+        {
+            "name": "VictorFursa",
+            "email": "victor.fursa.ck@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "^3.3",
+        "symfony/routing": "^3.3",
+        "symfony/http-kernel": "^3.3"
+    }
+}
